@@ -11,6 +11,8 @@ $(document).ready(function (){
 		var root = 'https://itunes.apple.com/search?';
 		$.ajax({
 		// completa el ajax aquí
+			parseJSON:root,
+			context: document.body,
         });
 	}
 
